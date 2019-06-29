@@ -4259,11 +4259,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
   }
 }
 @media (min-width: 768px) {
@@ -10006,7 +10006,7 @@ h4 small {
 .site-footer .navigation .nav-pills li a:hover,
 .site-footer .navigation .nav-pills li a:focus,
 .site-footer .navigation .nav-pills li.active a {
-  background-color: #007872;
+  font-weight: 900;  
 }
 .site-footer .nav > li > a,
 .site-footer .nav > li > a:focus,

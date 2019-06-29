@@ -4189,7 +4189,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  font-weight: 700;
+  font-weight: 900;
 }
 .nav-stacked > li {
   float: none;
@@ -9857,7 +9857,9 @@ h4 small {
 .masthead .nav > .active > a,
 .masthead .nav > .active > a:hover,
 .masthead .nav > .active > a:focus {
-  font-weight: 900;
+  font-weight: 700;
+  color: #F05F3B;
+  font-family: 'Rubik', sans-serif;
 }
 .masthead .site-search {
   margin: 4px 8px 4px 0;

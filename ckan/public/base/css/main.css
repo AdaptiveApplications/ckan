@@ -9804,6 +9804,8 @@ h4 small {
 }
 .masthead a {
   color: #007872;
+  text-decoration: none!important;
+  letter-spacing: .01;
 }
 .masthead hgroup h1,
 .masthead hgroup h2 {

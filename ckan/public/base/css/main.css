@@ -9849,7 +9849,7 @@ h4 small {
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li a:focus,
 .masthead .navigation .nav-pills li.active a {
-  font-weight: 900;
+  font-weight: 700;
 }
 .masthead .nav > li > a,
 .masthead .nav > li > a:focus,
@@ -9857,7 +9857,7 @@ h4 small {
 .masthead .nav > .active > a,
 .masthead .nav > .active > a:hover,
 .masthead .nav > .active > a:focus {
-  font-weight: 700;
+  font-weight: 500;
   color: #F05F3B;
   font-family: 'Rubik', sans-serif;
 }

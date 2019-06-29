@@ -5027,7 +5027,6 @@ a.badge:focus {
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #F05F3B;
-  font-weight: 900;
 }
 .list-group-item > .badge {
   float: right;
@@ -9876,7 +9875,6 @@ h4 small {
 .masthead .btn-navbar-btn.active,
 .masthead .btn-navbar-btn.disabled,
 .masthead .btn-navbar-btn[disabled] {
-  background-color: #007872;
   background-image: none;
   border: none;
   -webkit-box-shadow: none;

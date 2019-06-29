@@ -9849,7 +9849,7 @@ h4 small {
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li a:focus,
 .masthead .navigation .nav-pills li.active a {
-
+  font-weight: 900;
 }
 .masthead .nav > li > a,
 .masthead .nav > li > a:focus,
@@ -10006,7 +10006,7 @@ h4 small {
 .site-footer .navigation .nav-pills li a:hover,
 .site-footer .navigation .nav-pills li a:focus,
 .site-footer .navigation .nav-pills li.active a {
-  font-weight: 900;  
+  font-weight: 700;  
 }
 .site-footer .nav > li > a,
 .site-footer .nav > li > a:focus,

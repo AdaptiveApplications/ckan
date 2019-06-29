@@ -4182,7 +4182,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
 }
 .nav-pills > li > a {
-  border-radius: 4px;
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -4190,8 +4189,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #F05F3B;
+  font-weight: 700;
 }
 .nav-stacked > li {
   float: none;
@@ -9851,7 +9849,7 @@ h4 small {
 .masthead .navigation .nav-pills li a:hover,
 .masthead .navigation .nav-pills li a:focus,
 .masthead .navigation .nav-pills li.active a {
-  font-weight: 900;
+
 }
 .masthead .nav > li > a,
 .masthead .nav > li > a:focus,
@@ -9859,8 +9857,7 @@ h4 small {
 .masthead .nav > .active > a,
 .masthead .nav > .active > a:hover,
 .masthead .nav > .active > a:focus {
-  color: #F05F3B;
-  text-shadow: none;
+  font-weight: 900;
 }
 .masthead .site-search {
   margin: 4px 8px 4px 0;

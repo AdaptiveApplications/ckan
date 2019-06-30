@@ -5524,8 +5524,8 @@ button.list-group-item-danger.active:focus {
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 .panel-body {
   padding: 15px;
@@ -5978,11 +5978,9 @@ button.close {
 .modal-content {
   position: relative;
   background-color: #fff;
-  border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: none;
+  box-shadow: none;
   background-clip: padding-box;
   outline: 0;
 }
@@ -6936,9 +6934,6 @@ a.tag:hover {
 .box {
   background-color: #fff;
   /*border: 1px solid #ccc;*/
-  border-radius: 4px;
-  -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05);
 }
 .module > .page-header {
   margin-top: 15px;

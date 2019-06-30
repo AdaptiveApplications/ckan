@@ -1,14 +1,9 @@
 <div role="main" class="hero">
   <div class="container">
     <div class="row row1">
-      <div class="col-md-6 col1">
+      <div class="col-md-12 col1">
         {% block promoted %}
           {% snippet 'home/snippets/promoted.html' %}
-        {% endblock %}
-      </div>
-      <div class="col-md-6 col2">
-        {% block search %}
-          {% snippet 'home/snippets/search.html' %}
         {% endblock %}
       </div>
     </div>
@@ -17,6 +12,11 @@
 <div role="main">
   <div class="container">
     <div class="row row2">
+      <div class="col-md-6 col2">
+        {% block search %}
+          {% snippet 'home/snippets/search.html' %}
+        {% endblock %}
+      </div>
       <div class="col-md-6 col2">
         {% block featured_organization %}
           {% snippet 'home/snippets/featured_organization.html' %}

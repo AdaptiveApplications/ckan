@@ -9324,7 +9324,7 @@ h4 small {
   }
 }
 [role=main] {
-  min-height: 350px;
+  min-height: 280px;
 }
 .main:after,
 [role=main]:after {
